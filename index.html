@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВОИ Главная старница</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Щапка -->
+    <header>
+        <div class="container flex">
+            <div class="logo flex">
+
+                <img src="images/logo.svg" alt="" srcset=""></img>
+                <p>Всероссийское <br> Общество <br> Инвалидов</p>
+
+            </div>
+            <div onclick="burgerMenu()" class="span">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu_header flex a_hover none">
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="info.html">Об организации</a></li>
+            </ul>
+            <div onclick="eyE()" class="eye flex none">
+                <img src="images/eye.svg" alt="">
+                <a href="#">Версия для <br> слабовидящих</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Блок о нас -->
+    <div class="o_nas">
+        <div class="container">
+            <h2>Кто мы</h2>
+            <div class="o_nas_infoBlock flex">
+                <img src="images/for_o_nas.png" alt="Тут должна быть фотка">
+                <div class="o_nas_text">
+                    <p>Активность</p>
+                    <p>Мы не ждем, когда кто-то решит наши проблемы, а активно добиваемся своих целей
+                    </p>
+                    <p>Полезность</p>
+                    <p>Все, что мы делаем, должно быть полезно людям и обществу
+                    </p>
+                    <p>Равенство возможностей</p>
+                    <p>Инвалидность не должна ограничивать возможности человека в обществе или давать ему необоснованные привилегии</p>
+                    <div class="btn_block flex">
+                        <a href="info.html" class="btn btn_hover">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок с новостями -->
+
+    <div class="news">
+        <div class="container">
+            <h2>Недавние новости</h2>
+            <div class="news_blocks flex">
+                <div class="block">
+                    <img src="images/img_new1.png" alt="1  ">
+                    <p>25 декабря 2021</p>
+                    <p>Состоялся новогодний праздник</p>
+                    <a href="news1.html">Подробнее</a>
+                </div>
+
+                <div class="block">
+                    <img src="images/img_new2.png" alt="1  ">
+                    <p>21 ноября 2021</p>
+                    <p>Выставка Евгения Коробских в “Дворец культуры, искусства и творчества”</p>
+                    <a href="news2.html">Подробнее</a>
+                </div>
+
+                <div class="block">
+                    <img src="images/img_new3.png" alt="1  ">
+                    <p>10 октября 2021</p>
+                    <p>Мероприятие с “Советом женщин серебрянного возраста”</p>
+                    <a href="news3.html">Подробнее</a>
+                </div>
+
+                <div class="block">
+                    <img src="images/img_new4.png" alt="1  ">
+                    <p>1 октября 2021</p>
+                    <p>Концерт в честь дня пожилого человека в “Дворец культуры, искусства и творчеств</p>
+                    <a href="news4.html">Подробнее</a>
+                </div>
+
+                <div class="block">
+                    <img src="images/img_new5.png" alt="1  ">
+                    <p>12 ноябрь 2021</p>
+                    <p>Лекция о русском народном творчестве в библиотеке “Эврика”</p>
+                    <a href="news5.html">Подробнее</a>
+                </div>
+
+                <div class="block">
+                    <img src="images/img_new6.png" alt="1  ">
+                    <p>23 июня 2021</p>
+                    <p>Спортакиада среди лиц с ограниченными возможностями</p>
+                    <a href="news6.html">Подробнее</a>
+                </div>
+            </div>
+            <div class="btn_block flex">
+                <a href="news.html" class="btn btn_hover">Еще</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок с интерактивами -->
+
+    <div class="interactive">
+        <h2>Интерактивы</h2>
+        <div class="container flex">
+
+            <div class="block">
+                <img src="images/game/game1.png" alt="">
+                <p>Джакколо</p>
+            </div>
+
+            <div class="block">
+                <img src="images/game/game2.png" alt="">
+                <p>Корнхолл</p>
+            </div>
+
+            <div class="block">
+                <img src="images/game/game3.png" alt="">
+                <p>Кульбутто</p>
+            </div>
+
+            <div class="block">
+                <img src="images/game/game4.png" alt="">
+                <p>Вязание</p>
+            </div>
+
+            <div class="block">
+                <img src="images/game/game5.png" alt="">
+                <p>Бочча</p>
+            </div>
+
+            <div class="block">
+                <img src="images/game/game6.png" alt="">
+                <p>Шаффлборд</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container flex">
+            <img src="images/logoFooter.svg" alt="">
+            <div class="foot_menu">
+
+                <div class="footer_info">
+                    <p>
+                        Комсомольская ул., 40, Тольятти, <br> Самарская обл., 445011
+                    </p>
+                    <p>28-19-09</p>
+                    <a href="" class="a_hover">voi.tlt.centr@yandex.ru</a>
+                </div>
+            </div>
+        </div>
+        <p>ВОИ 2022</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+</html>
